@@ -44,3 +44,7 @@ create repositoryを押下
 `git commit`でcommitを作成して、pushを行う
 
 そうすることでファイルがアップされているはず！！
+
+### 6. clone
+ここで力ついた。。。
+また追記
