@@ -50,6 +50,8 @@ services:
       - "3000:3000"
     depends_on:
       - db
+    environment:
+      - EDITOR=vim
     stdin_open: true
     tty: true
 volumes:
