@@ -23,8 +23,6 @@ ENTRYPOINT ["entrypoint.sh"]
 EXPOSE 3000
 
 CMD ["rails", "server", "-b", "0.0.0.0"]
-
-apt-get install -y vim
 ```
 
 ## 3. docker-compose.ymlを編集
