@@ -100,7 +100,7 @@ default: &default
 ## 8. DB作成
 
 ```Shell
-% docker-compose run -e EDITOR=vim web rails credentials:edit
+% docker-compose run web rails credentials:edit
 % docker-compose run web bundle exec rake db:create
 ```
 
