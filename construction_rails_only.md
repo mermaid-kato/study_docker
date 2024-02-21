@@ -98,7 +98,7 @@ default: &default
 ## 8. DB作成
 
 ```Shell
-% docker-compose run web rake db:create
+% docker-compose run web bundle exec rake db:create
 ```
 
 ## 9. サーバー起動
