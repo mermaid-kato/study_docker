@@ -98,6 +98,7 @@ default: &default
 ## 8. DB作成
 
 ```Shell
+% docker-compose run web bundle exec credentials:edit
 % docker-compose run web bundle exec rake db:create
 ```
 
