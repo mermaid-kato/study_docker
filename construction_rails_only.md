@@ -48,6 +48,7 @@ services:
       - .:/rails_practice
     ports:
       - "3000:3000"
+    environment: RAILS_ENV: development 
     depends_on:
       - db
     environment:
