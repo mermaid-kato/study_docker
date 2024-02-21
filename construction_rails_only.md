@@ -103,7 +103,7 @@ default: &default
 
 ```Shell
 % docker-compose run web rails credentials:edit
-% docker-compose run web bundle exec rake db:create
+% docker-compose run web bundle exec rake db:create RAILS_ENV=development
 ```
 
 ## 9. サーバー起動
