@@ -23,6 +23,8 @@ ENTRYPOINT ["entrypoint.sh"]
 EXPOSE 3000
 
 CMD ["rails", "server", "-b", "0.0.0.0"]
+
+apt-get install -y vim
 ```
 
 ## 3. docker-compose.ymlを編集
@@ -98,7 +100,7 @@ default: &default
 ## 8. DB作成
 
 ```Shell
-% docker-compose run web bundle exec credentials:edit
+% docker-compose run -e EDITOR=vim web rails credentials:edit
 % docker-compose run web bundle exec rake db:create
 ```
 
